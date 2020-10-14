@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>båtsmart hyra båt segelbåt motorbåt vattenskoter hyra ut</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="css/style.css" rel="stylesheet">
+                              
+                               <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+                     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+                            <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+                         <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+                         
+                          <!--navigationslista-->
+                          
+<!--navigationslista-->
+                          
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+           <!--Responsive knapp-->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+     <a href="index.html" class="navbar-brand"><img src="img/favicon-32x32.png" alt="Logga"></a>
+     </div>
+     <div class="collapse navbar-collapse" id="navi">
+    
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="omoss.html">OM OSS</a></li>
+        <li><a href="hyra.html">HYRA</a></li>
+        <li><a href="hyraut.html">HYRA UT</a></li>
+        <li><a href="loggain.html">LOGGA IN</a></li>
+    </ul>
+    </div>  
+    </div>
+    </nav>                         
+
+     <!--Registrera din båt-->  
+                        
+ <form action="/action_page.php">
+  <fieldset>
+    <legend>Registrera din båt:</legend>
+    <label for="fname">Modell:</label>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="week">Tillgänglig:</label>
+    <input type="week" id="week" name="week" multiple><br>
+    <label for="myfile">lägg upp en bild:</label><br>
+    <input type="file" id="myfile" name="myfile" multiple><br>
+    <label for="blog">Båtinfo: </label>
+  <br>
+  <textarea id="blog" name="blog" rows="5" cols="30">
+  </textarea><br>
+    <label for="fname">Ägare:</label>
+    <input type="text" id="fname" name="fname" value="namn"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+ 
+          <!--footer-->
+<footer class="footer">
+    <div class="row">
+    <P>Båtsmart</P>    
+    </div>
+</footer>            
+
+</body>
+</html>
