@@ -1,0 +1,353 @@
+ {
+    margin:0;
+    padding:0;
+}
+body { 
+    width: 100%; 
+    overflow-y: show;
+    overflow-x: hidden;
+    background-color: #b3daff;
+    text-align: center;
+}
+/*==navigation==*/
+.navbar {
+    padding: 20px 0px;
+    background-color: #bfbfbf !important;
+    border-bottom: none !important;
+}
+.navbar ul li a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing:1px;
+    transition: all 0.5s ease-in;
+}
+.navbar ul li a:hover {
+    color:#0099ff !important;
+}
+.navbar-toggle {
+    border: 1px solid #b3daff !important;
+    }
+.navbar-toggle:hover {
+    background-color: #777 !important;
+}
+      /*==Rubrik==*/
+header {
+    background-position:top;
+    align-content:center;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #b3daff;
+    background-size: cover;
+    padding:120px;
+    color:black;
+    text-align: center;
+}
+
+
+
+/*==heade==r*/
+header {
+    background-position:fixed;
+    top: 40px;
+    align-content:center;
+    max-width: 100%;
+    min-width: 50%;
+    background-color: #b3daff;
+    background-size: cover;
+    padding:120px;
+    color:black;
+    text-align: center;
+}
+.logga {
+    max-width: 100%;
+    min-width: 10%; 
+}
+/*==Slider börjar==*/
+.slider {
+    width: 100%;
+    height: 500px;
+    background-color:#b3daff; 
+    background-size:cover;
+    background-position: center;
+ }
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    position: relative;
+}
+.btn1 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in;
+
+}
+.btn1:hover {
+    text-decoration: none;
+    color: black;
+    background-color:dodgerblue;
+    border-color: dodgerblue;
+}
+
+.btn2 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in
+}
+.btn2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+.btn3 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in
+}
+.btn3:hover {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+.btn4 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in
+}
+.btn4:hover {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+/* Buttons */
+
+.cta-div {
+    padding-top: 130px;
+}
+.btn1 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in;
+
+}
+.btn1:hover {
+    text-decoration: none;
+    color: black;
+    background-color:dodgerblue;
+    border-color: dodgerblue;
+}
+
+.btn2 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in
+}
+.btn2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+.btn3 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in
+}
+.btn3:hover {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+.btn4 {
+    padding: 15px 28px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #777;
+    border-radius: 25px; 
+    transition: all 0.5s ease-in
+}
+.btn4:hover {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+    /*==Kontaktformulär==*/
+.contact-area {
+    margin-top: 80px;
+}
+.form-control {
+    border-radius: 0px !important;
+    border: 1px solid #000 !important;
+}
+.contact-form button.btn {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border-radius: 2px solid #b3daff;
+}
+.contact-infos {
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom:-30px;
+    background: #777;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.contact-infos .fa {
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px; 
+}
+.contact-infos p {
+    color: white;
+    margin-top: 15px;
+}
+     
+    /*==karta==*/
+.map {
+    margin-top: 20;
+}
+form {
+    padding-top:200px;
+    background-color: #b3daff;
+}
+/*==hyrabåt bilder startar==*/
+}
+.latest-news-area {
+    margin-top: 40px;
+}
+.latest-news-wrap {
+    box-shadow: 8px 3px 10px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+.news-img {
+    position: relative;
+}
+.news-img:before {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all 0.5s;
+    
+}
+.latest-news-wrap:hover .news-img:before {
+    opacity: .5;
+    transform: scale(1);
+}
+.deat {
+    background: #00ff00 none repeat scroll 0 0;
+    height: 70px;
+    left: o;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+}
+.deat span {
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+.news-content {
+    padding: 20;
+    margin-left: -20px;
+
+}
+.news-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.news-content a {
+    font-size: 14px;
+    background-color: #bfbfbf; 
+    padding: 10px 20px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.news-content a:hover {
+    font-size: 14px;
+    border: 1px solid #0099ff;
+    border-top-right-radius: 20px;
+    background-color: #0099ff;
+    color: white;
+    margin-right: 0;
+    text-decoration: none;
+}
+    /*==Footern==*/
+.footer .row{ 
+    background-color: #777 !important;
+    padding: 10px;
+    text-align: center;
+    color:antiquewhite;
+    
+}
+
+@media (max-width: 800px) {
+.slider, a.btn1, a.btn2, a.btn3, a.btn4 
+{
+    display:block;
+    width: 100%;
+    }
+}
+
+
